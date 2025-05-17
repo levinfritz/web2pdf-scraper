@@ -1,0 +1,24 @@
+{
+  "name": "m129-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Dieses Projekt lädt automatisch alle Kapitel der Webseite, speichert jedes Kapitel als PDF und fügt sie anschliessend zu einem einzigen Gesamtdokument zusammen.",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^24.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levinfritz/web2pdf-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/levinfritz/web2pdf-scraper/issues"
+  },
+  "homepage": "https://github.com/levinfritz/web2pdf-scraper#readme"
+}
